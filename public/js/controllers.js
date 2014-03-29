@@ -17,9 +17,8 @@ angular.module('myApp.controllers', []).
     });
 
   }).
-  controller('MyCtrl1', function ($scope) {
-    // write Ctrl here
-
+  controller('TeamController', function ($scope) {
+    $scope.teams = TeamService.all();
   }).
   controller('MyCtrl2', function ($scope) {
     // write Ctrl here
