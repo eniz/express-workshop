@@ -2,6 +2,13 @@
   "name": "expresssample",
   "version": "0.0.1",
   "private": true,
+  "description": "Express workshop project for my improments about express.js",
+  "keywords": "express.js, node.js, grunt, bower",
+  "author": "Eniz Gülek <enizgulek@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enzglk/express-workshop"
+  },
   "scripts": {
     "start": "node app"
   },
