@@ -1,0 +1,9 @@
+<div ng-controller="TeamController">
+	<ul ng-repeat="team in teams">
+		<li>{{team}}</li>
+	</ul>
+	<div class="nested" ng-controller="AnotherController">
+		First team: {{firstTeam}}
+	</div>
+</div>
+
